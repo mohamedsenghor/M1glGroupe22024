@@ -1,0 +1,49 @@
+# Ignore build outputs
+bin/
+obj/
+publish/
+
+# Ignore Visual Studio temporary files, caches, and user-specific settings
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.testsettings
+*.runsettings
+*.cache
+*.resharper.user*
+
+# Ignore NuGet packages
+packages/
+
+# Ignore local IIS Express configuration
+.vs/config/applicationhost.config
+
+# Ignore user secrets
+**/appsettings*.Development.json
+**/usersecrets.json
+
+# Ignore browser link files
+*.browserslistrc
+
+# Ignore StyleCop reports
+StyleCopReport.xml
+
+# Ignore Test Results
+TestResults/
+
+# Ignore any log files
+*.log
+
+# Ignore temporary ASP.NET files
+/App_Data/TEMP/
+
+# Optional: Ignore ReSharper caches (if you use ReSharper)
+_ReSharper*/
+
+# Optional: Ignore JetBrains Rider IDE files (if you use Rider)
+.idea/
+
+# Optional: Ignore local database files (if you are not tracking them)
+*.mdf
+*.ldf
